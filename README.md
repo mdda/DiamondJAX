@@ -3,13 +3,12 @@
 #minecraft,#MineRL,#machinelearning,#deeplearning,#openai,#googlecolab,#jax,#pytorch
 `
 
-Repository of useful 'stuff' for the MineRL BASALT Challenge
+Repository of useful stuff for the MineRL BASALT Challenge.
 
 
-### Minecraft and Machine Learning : First steps with MineRL
-[Link to YouTube Video](https://youtu.be/8yIrWcyWGek)
+### Episode 1 (2022-06-28) : First steps with MineRL - [YouTube Video](https://youtu.be/8yIrWcyWGek)
 
-* This episode's Colab Notebook : [DiamondJAX_00-Intro](https://colab.research.google.com/drive/1rJ3lGy-bG7kJRe_wYBWg7fjSaD9oOMDw?usp=sharing)
+* This episode's Colab Notebook : [DiamondJAX_00-SetUp](https://colab.research.google.com/drive/1rJ3lGy-bG7kJRe_wYBWg7fjSaD9oOMDw?usp=sharing)
 * Includes:
   + Installation of correct `MineRL` and `VPT` repos (takes ~20+mins)
   + Safely stowing the installation on Google Drive
@@ -19,8 +18,7 @@ Repository of useful 'stuff' for the MineRL BASALT Challenge
 
 * OpenAI VPT + IDM
   * [Blog Post](https://openai.com/blog/vpt/)
-  * [Yannic Kilcher explanation](https://www.youtube.com/watch?v=oz5yZc9ULAc)
-  * [Edan Meyer explanation](https://www.youtube.com/watch?v=ODat7kfZ-5k)
+  * Explanation videos by [Yannic Kilcher](https://www.youtube.com/watch?v=oz5yZc9ULAc) and [Edan Meyer](https://www.youtube.com/watch?v=ODat7kfZ-5k)
   
 * MineDojo
   * Datasets and MineCLIP = https://minedojo.org/
@@ -30,14 +28,12 @@ Repository of useful 'stuff' for the MineRL BASALT Challenge
   * Quick explanation - [here are the docs](https://minerl.readthedocs.io/en/v1.0.0/tutorials/index.html)
 
 * Rationale for doing this... The BASALT Challenge:
-  * [BASALT Challenge website](https://minerl.io/basalt/)
-  * [BASALT Challenge at AICrowd](https://www.aicrowd.com/challenges/neurips-2022-minerl-basalt-competition)
+  * [BASALT Challenge website](https://minerl.io/basalt/) and [BASALT Challenge at AICrowd](https://www.aicrowd.com/challenges/neurips-2022-minerl-basalt-competition)
   
 
 
 
-### Minecraft and Machine Learning : Using VPT on Demo Video
-[Link to YouTube Video](https://youtu.be/qdITG9B9s3c)
+### Episode 2 (2022-07-06) : Using VPT on Demo Video - [YouTube Video](https://youtu.be/qdITG9B9s3c)
 
 _(Apologies for the 'sparkly' person-in-picture effect)_
 
@@ -50,27 +46,27 @@ _(Apologies for the 'sparkly' person-in-picture effect)_
 #### Notes
 
 * Video content downloading
-    * MineCraft Basic House (CC licensed)
-        * URL='https://www.youtube.com/watch?v=VqMhzc1s45A'
-    * `youtube-dl --list-formats ${URL}`
-
-    * `# 18           mp4        640x360    360p  678k , avc1.42001E, 30fps, mp4a.40.2 (44100Hz)`
-    * `youtube-dl --format 18 ${URL}  # 35Mb`
+    
+```bash
+URL='https://www.youtube.com/watch?v=VqMhzc1s45A'
+youtube-dl --list-formats ${URL}
+# 18           mp4        640x360    360p  678k , avc1.42001E, 30fps, mp4a.40.2 (44100Hz)youtube-dl --format 18 ${URL}  # 35Mb
+```
 
 #### Other Resources
 
 OpenAI VPT (Video Pre-Training) : 
-* [Blog Post](https://openai.com/blog/vpt/)
-* [Code Repo](https://github.com/openai/Video-Pre-Training)
+* [Blog Post](https://openai.com/blog/vpt/) and [Code Repo](https://github.com/openai/Video-Pre-Training)
+* See above for links to VPT explainer videos
 
 BASALT Challenge - with links to Discord discussion
 * [Main Competition Page](https://www.aicrowd.com/challenges/neurips-2022-minerl-basalt-competition)
 
 "MineRL v1.0.0 VPT" Colab by @nev:
-* [@nev's Colab Notebook](https://colab.research.google.com/drive/1OYdc4FwmW1nYTHLfCpEHv-hn83euvRdh?usp=sharing)
+* [@nev's Colab Notebook](https://colab.research.google.com/drive/1OYdc4FwmW1nYTHLfCpEHv-hn83euvRdh?usp=sharing) - shared on the Discord channel
 
 Credit to @DeadUser153 for their house building: 
-* https://www.youtube.com/watch?v=VqMhzc1s45A
+* [MineCraft Basic House](https://www.youtube.com/watch?v=VqMhzc1s45A) (CC licensed)
 
 
 
