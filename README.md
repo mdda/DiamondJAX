@@ -6,13 +6,14 @@
 Repository of useful stuff for the MineRL BASALT Challenge.
 
 
-### Episode 1 (2022-06-28) : First steps with MineRL - [YouTube Video](https://youtu.be/8yIrWcyWGek)
+### Episode 1 (2022-06-28) : First steps with MineRL &rarr; [YouTube Video](https://youtu.be/8yIrWcyWGek)
 
 * This episode's Colab Notebook : [DiamondJAX_00-SetUp](https://colab.research.google.com/drive/1rJ3lGy-bG7kJRe_wYBWg7fjSaD9oOMDw?usp=sharing)
 * Includes:
   + Installation of correct `MineRL` and `VPT` repos (takes ~20+mins)
   + Safely stowing the installation on Google Drive
     - ... enables re-installation in 2-3mins
+  + Basic 'turn-360' and 'pull up inventory' action tests
 
 #### Other Resources
 
@@ -33,7 +34,7 @@ Repository of useful stuff for the MineRL BASALT Challenge.
 
 
 
-### Episode 2 (2022-07-06) : Using VPT on Demo Video - [YouTube Video](https://youtu.be/qdITG9B9s3c)
+### Episode 2 (2022-07-06) : Using VPT on Demo Video &rarr; [YouTube Video](https://youtu.be/qdITG9B9s3c)
 
 _(Apologies for the 'sparkly' person-in-picture effect)_
 
@@ -42,6 +43,7 @@ _(Apologies for the 'sparkly' person-in-picture effect)_
 * Includes:
     + `ffmpeg` video reformatting to 20FPS, correct size
     + `MineRL`-free usage of `VPT`
+    + Terminal pretty-print of `VPT` output actions
 
 #### Notes
 
