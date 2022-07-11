@@ -71,7 +71,7 @@ youtube-dl --list-formats ${URL}
     * [MineCraft Basic House](https://www.youtube.com/watch?v=VqMhzc1s45A) (CC licensed)
 
 
-### Episode 3 (2022-07-12) : OpenAI VPT for Android Demos &rarr; [YouTube Video](TBA)
+### Episode 3 (2022-07-12) : OpenAI VPT for Android Demos &rarr; [YouTube Video](https://youtu.be/S9sAd3DqToE)
 
 * This episode's Colab Notebook : [DiamondJAX_03-VPT-for-AndroidDemos](https://colab.research.google.com/drive/1tUR0Y7fpxF3O_bLfiks6imSzNXJ_BRvK?usp=sharing)
 * Includes (_extending the previous Colab_):
