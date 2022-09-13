@@ -1,0 +1,25 @@
+FROM minerl-basalt-base
+
+# Install needed apt packages
+ARG DEBIAN_FRONTEND=noninteractive
+USER root
+COPY apt-dev.txt apt-dev.txt
+RUN apt -qq update && xargs -a apt-dev.txt apt -qq install -y --no-install-recommends \
+ && rm -rf /var/cache/*
+
+# Set the user and conda environment paths
+USER aicrowd
+ENV HOME_DIR /home/$USER
+ENV CONDA_DEFAULT_ENV="minerl"
+ENV PATH /home/aicrowd/.conda/envs/minerl/bin:$PATH
+ENV FORCE_CUDA="1"
+
+# Use MineRL environment
+SHELL ["conda", "run", "-n", "minerl", "/bin/bash", "-c"]
+
+# Conda environment update
+COPY environment-dev.yml environment-dev.yml
+RUN conda env update --name minerl -f environment-dev.yml --prune
+
+## Copy the files
+#COPY --chown=1001:1001 . /home/aicrowd

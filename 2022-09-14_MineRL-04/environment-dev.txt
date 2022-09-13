@@ -1,0 +1,9 @@
+name: minerl
+channels:
+  - conda-forge
+  - defaults
+  - pytorch
+dependencies:
+  - pip:
+    - jupyterlab
+    - pyvirtualdisplay
