@@ -11,7 +11,7 @@ Super proud to have won a Community Award from the BASALT/MineRL community for m
 
 Here's a screenshot from their announcement on discord:
 
-<img src="assets/CommunityAward_800x483.png" />
+<img src="./CommunityAward_800x483.png" />
 
 
 ### Episode 1 (2022-06-28) : First steps with MineRL &rarr; [YouTube Video](https://youtu.be/8yIrWcyWGek)
