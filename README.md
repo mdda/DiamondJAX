@@ -5,6 +5,14 @@
 
 Repository of useful stuff for the MineRL BASALT Challenge.
 
+### News!
+
+Super proud to have won a Community Award from the BASALT/MineRL community for making these videos and code samples!
+
+Here's a screenshot from their announcement on discord:
+
+<img src="assets/CommunityAward_800x483.png" />
+
 
 ### Episode 1 (2022-06-28) : First steps with MineRL &rarr; [YouTube Video](https://youtu.be/8yIrWcyWGek)
 
